@@ -1,6 +1,5 @@
 const { calculateRoomBookingPrice }  = require('./calculation');
 
-
 describe('room booking function returns the cheapest tariff', () => {
     test('for a 45 minute meeting', () => {
         expect(calculateRoomBookingPrice(45)).toBe(22);
