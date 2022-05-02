@@ -2,9 +2,10 @@
   "name": "kitt-tech-test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "calculation.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "nodemon calculation.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/Lizzy-j/kitt-tech-test#readme",
   "devDependencies": {
-    "jest": "^28.0.3"
+    "jest": "^28.0.3",
+    "nodemon": "^2.0.16"
   }
 }
